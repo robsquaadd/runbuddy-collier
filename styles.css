@@ -46,7 +46,7 @@ header nav ul li a {
 footer {
     background-color: #fce138;
     color: #39a6b2;
-    padding: 35px 30px;
+    padding: 35px 15px;
     margin: 10px 10px;
 }
 
@@ -65,4 +65,9 @@ footer h2{
 
 footer div a{
     color: #024e76;
+    padding: 0 5px;
+}
+
+section {
+    text-align: center;
 }
