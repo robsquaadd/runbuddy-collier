@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     color: #39a6b2;
@@ -11,6 +12,7 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
     color: #fce138;
+    margin: 10px 10px;
 }
 header h1 {
     color: #fce138;
@@ -44,4 +46,23 @@ header nav ul li a {
 footer {
     background-color: #fce138;
     color: #39a6b2;
+    padding: 35px 30px;
+    margin: 10px 10px;
+}
+
+footer div {
+    float: right;
+    text-align: right;
+    line-height: 1.5;
+}
+
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div a{
+    color: #024e76;
 }
