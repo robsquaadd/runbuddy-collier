@@ -33,12 +33,11 @@ header nav {
 }
 
 header nav ul li {
-    padding: 30px;
     display: inline;
 }
 
 header nav ul li a {
-    margin: 0 30 px;
+    margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
@@ -69,5 +68,56 @@ footer div a{
 }
 
 section {
-    text-align: center;
+    text-align: left;
+    padding: 60px;
+}
+
+.hero {
+    background-image: url('o-RUNNING-facebook.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    padding: 20px;
+    background-color: #fce138;
+    border: 2px solid #024e76;
+    width: 500px;
+    bottom: 120px;
+    right: 140px;
+}
+
+.form div h3 {
+    font-size: 24px;
+    margin: 5px 0 15px 0;
+}
+
+.form-input{
+    font-size: 16px;
+    border: 2px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    width: 100%;
+    color: #024e76;
+    margin-bottom: 15px;
+}
+.form label {
+    margin: 0 5px;
+}
+
+#getStarted p {
+    padding: 5px 0 5px 0;
+}
+
+button {
+    display: block;
+    background-color: #024e76;
+    color: #fce138;
+    margin: 10px 0 0 5px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+
 }

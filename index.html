@@ -20,29 +20,32 @@
             </nav>
         </header>
         <!--jumbotron section skeleton-->
-        <section>
-            <div>
-                <h3>Get Started Today!</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult.</p>
+        <section class="hero">
+            <div class="form">
+                <div>
+                    <h3>Get Started Today!</h3>
+                    <p>Fill out this form and one of our trainers will schedule a consult.</p>
+                </div>
+                <br>
+                <form id="getStarted">
+                    <label for="name">Enter Full Name: </label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class='form-input'/>
+                    <label for="email">Enter Email Address: </label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class='form-input'/>
+                    <label for="phone">Enter a Telephone Number: </label>
+                    <input type='tel' placeholder="Phone Number" name="phone" id="phone" class='form-input'/>
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>                    
+                    </p>
+                    <label for="18+">I acknowledge that I am at least 18 years of age.</label>
+                    <input type='checkbox' name="18+" id="18+" />
+                    <button type='submit'>Get Running</button>
+                </form>
             </div>
-            <form id="getStarted">
-                <label for="name">Enter Full Name: </label><br>
-                <input type="text" placeholder="Your Name" name="name" id="name" /><br>
-                <label for="email">Enter Email Address: </label>
-                <input type="email" placeholder="Email Address" name="email" id="email" />
-                <label for="phone">Enter a Telephone Number: </label>
-                <input type='tel' placeholder="Phone Number" name="phone" id="phone" />
-                <p>
-                    Have you worked out with a trainer before?
-                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                    <label for="trainer-yes">Yes</label>
-                    <input type="radio" name="trainer-confirm" id="trainer-no" />
-                    <label for="trainer-no">No</label>                    
-                </p>
-                <label for="18+">I acknowledge that I am at least 18 years of age.</label>
-                <input type='checkbox' name="18+" id="18+" />
-                <button type='submit'>Get Running</button>
-            </form>
         </section>
         <!--Section on what we do-->
         <section id="what-we-do">
