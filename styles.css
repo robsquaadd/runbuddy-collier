@@ -161,3 +161,12 @@ button {
 #what-you-do {
     background-color: #fce138;
 }
+
+.intro h3 {
+    color: #024e76;
+    font-size: 32px;
+}
+
+#what-you-do span {
+    font-size: 24px;
+}
