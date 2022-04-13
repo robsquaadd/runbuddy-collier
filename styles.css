@@ -121,22 +121,43 @@ button {
     border: none;
 }
 
-#what-we-do {
+
+.intro{
     text-align: center;
 }
 
-#what-we-do h2 {
-    color: #024e76;
-    font-size: 55px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #fce138;
+.intro img {
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 35px
+}
+
+.intro p {
+    line-height: 1.7;
+    width: 80%;
     display: inline-block;
-    margin: 35px;
+}
+
+.section-title{
+    font-size: 55px;
+    color: #024e76;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.gold-border {
+    border-color: #fce138;
+}
+
+.blue-border {
+    border-color: #39a6b2;
 }
 
 #what-we-do p {
-    line-height: 1.7;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#what-you-do {
+    background-color: #fce138;
 }
