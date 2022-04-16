@@ -12,7 +12,7 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
     color: #fce138;
-    margin: 10px 10px;
+    margin: 0;
 }
 header h1 {
     color: #fce138;
@@ -46,7 +46,7 @@ footer {
     background-color: #fce138;
     color: #39a6b2;
     padding: 35px 15px;
-    margin: 10px 10px;
+    margin: 0
 }
 
 footer div {
@@ -169,4 +169,81 @@ button {
 
 #what-you-do span {
     font-size: 24px;
+}
+
+.trainers {
+    text-align: center;
+}
+
+.trainer-class {
+    width: 900px;
+    margin: 15px auto 15px auto;
+    color: #fce138;
+    background-color: #024e76;
+    overflow: auto;
+}
+
+.trainer-class img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    width: 65%;
+    float: left;
+    padding: 35px;
+    text-align: left;
+}
+
+.trainer-bio h3 {
+    font-size: 36px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 24px;
+    margin: 10px 0 20px 0;
+}
+
+#reach-out h3,a {
+    color: #fce138
+}
+
+#reach-out-header {
+    color: #fce138;
+    margin: 35px;
+}
+
+#reach-out {
+    background-color: #024e76;
+}
+
+.contact-container{
+    width: 1000px;
+    display: inline-block;
+    align-items: center;
+}
+
+.contact-container iframe {
+    width: 400px;
+    height: 400px;
+    display: inline;
+    float: left;
+    margin: 0 30px 0 40px;
+}
+
+.contact-container article {
+    width: 500px;
+    display: inline;
+    float: left;
+    text-align: left;
+    margin: 30px 0 0 30px;
+    vertical-align: top;
+}
+
+.contact-container p, address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
 }
