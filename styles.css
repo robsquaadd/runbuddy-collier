@@ -7,7 +7,6 @@ body {
   color: #39a6b2;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 header {
   padding: 20px 35px;
   background-image: url(./o-RUNNING-facebook.jpg);
@@ -22,10 +21,8 @@ header {
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
-
   top: 0;
 }
-
 header h1 {
   color: #fce138;
   font-weight: bold;
@@ -33,12 +30,10 @@ header h1 {
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 header a {
   color: #fce138;
   text-decoration: none;
 }
-
 header nav ul {
   margin: 7px 0;
   display: flex;
@@ -47,21 +42,18 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
-
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 header nav ul li a:hover {
   background-color: #fce138;
   color: #024e76;
   border-radius: 15px;
   text-shadow: none;
 }
-
 footer {
   background-color: #fce138;
   color: #39a6b2;
@@ -71,29 +63,24 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 footer div {
   text-align: right;
   line-height: 1.5;
 }
-
 footer h2 {
   display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
-
 footer div a {
   color: #024e76;
   padding: 0 5px;
 }
-
 section {
   text-align: left;
   padding: 60px;
 }
-
 .hero {
   background-image: url("o-RUNNING-facebook.jpg");
   background-size: cover;
@@ -104,7 +91,6 @@ section {
   align-items: center;
   flex-wrap: wrap-reverse;
 }
-
 .hero-cta {
   text-align: right;
   color: #024e76;
@@ -115,7 +101,6 @@ section {
   padding: 10px;
   line-height: 1.2;
 }
-
 .hero-cta h2 {
   color: #024e76;
   font-size: 42px;
@@ -124,7 +109,6 @@ section {
   font-style: italic;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 .form {
   padding: 20px;
   background-color: rgba(252, 225, 56, 0.8);
@@ -134,12 +118,10 @@ section {
   width: 45%;
   margin: 3.5%;
 }
-
 .form div h3 {
   font-size: 24px;
   margin: 5px 0 15px 0;
 }
-
 .form-input {
   font-size: 16px;
   border: 2px solid #024e76;
@@ -154,20 +136,16 @@ section {
 .form label {
   margin: 0 5px;
 }
-
 .form button:hover {
   background-color: #39a6b2;
 }
-
 .form-input:focus {
   background-color: rgba(255, 255, 255, 1);
   outline: none;
 }
-
 #getStarted p {
   padding: 5px 0 5px 0;
 }
-
 button {
   display: block;
   background-color: #024e76;
@@ -177,24 +155,20 @@ button {
   border: none;
   border-radius: 10px;
 }
-
 .intro {
   text-align: center;
 }
-
 .intro img {
   align-items: center;
   margin-bottom: 35px;
   margin-top: 35px;
 }
-
 .intro p {
   line-height: 1.7;
   width: 80%;
   display: inline-block;
   text-align: center;
 }
-
 .section-title {
   font-size: 48px;
   color: #024e76;
@@ -204,28 +178,22 @@ button {
   text-align: center;
   margin: 0 auto;
 }
-
 .gold-border {
   border-color: #fce138;
 }
-
 .blue-border {
   border-color: #39a6b2;
 }
-
 #what-we-do p {
   margin-top: 35px;
 }
-
 #what-you-do {
   background-color: #fce138;
 }
-
 .intro h3 {
   color: #024e76;
   font-size: 32px;
 }
-
 .step-container {
   display: flex;
   justify-content: space-around;
@@ -234,26 +202,21 @@ button {
   padding: 25px 0;
   flex-wrap: wrap;
 }
-
 .step-container:not(:last-child) {
   border-bottom: 2px solid #024e76;
 }
-
 .step {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: 0 60%;
 }
-
 #what-you-do span {
   font-size: 24px;
 }
-
 .trainers {
   text-align: center;
 }
-
 .trainer-cards {
   display: flex;
   justify-content: space-around;
@@ -261,68 +224,55 @@ button {
   margin: 0 auto;
   width: 100%;
 }
-
 .trainer-class {
   margin: 20px;
   color: #fce138;
   background-color: #024e76;
   flex: 1;
 }
-
 .trainer-class img {
   width: 100%;
 }
-
 .trainer-bio {
   padding: 25px;
   text-align: left;
 }
-
 .trainer-bio h3 {
   font-size: 28px;
 }
-
 .trainer-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin: 0 0 15px 0;
 }
-
 #reach-out h3,
 a {
   color: #fce138;
 }
-
 #reach-out-header {
   color: #fce138;
   margin: 35px;
   text-align: center;
   display: block;
 }
-
 #reach-out {
   background-color: #024e76;
 }
-
 .contact-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: top;
 }
-
 .contact-form {
   margin: 20px;
 }
-
 .contact-form h3 {
   padding: 0 0 15px 0;
 }
-
 .contact-form label {
   margin: 5px 0 15px 0;
 }
-
 .contact-form input,
 textarea {
   width: 100%;
@@ -330,23 +280,19 @@ textarea {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.75);
 }
-
 .contact-form input:focus,
 .contact-form textarea:focus {
   background-color: rgba(255, 255, 255, 1);
   outline: none;
 }
-
 .contact-container iframe {
   height: 400px;
   margin: 40px;
 }
-
 .contact-container > * {
   flex: 1;
   margin: 15px;
 }
-
 .contact-info p,
 address {
   margin: 20px 0;
@@ -355,22 +301,18 @@ address {
   font-style: normal;
   text-align: left;
 }
-
 .contact-container h3 {
   font-size: 28px;
 }
-
 .contact-button:hover {
   background-color: #39a6b2;
   color: #fce138;
 }
-
 .contact-button {
   color: #024e76;
   background-color: #fce138;
   width: 100%;
 }
-
 .flex-row {
   display: flex;
   justify-content: center;
